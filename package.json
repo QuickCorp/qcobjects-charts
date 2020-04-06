@@ -1,13 +1,34 @@
 {
-  "name": "myapp",
+  "name": "qcobjects-charts",
+  "version": "0.1.1",
+  "description": "App template for New App in QCObjects",
+  "main": "js/init.js",
+  "scripts": {
+    "test": "jasmine",
+    "preversion": "npm test",
+    "version": "npm i --upgrade",
+    "postversion": "git push && git push --tags && npm publish",
+    "sync": "git add . && git commit -am ",
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/QuickCorp/QCObjects.git"
   },
-  "description": "Awesome PWA application that will help you achieve your dreams.",
-  "main": "js/init.js",
+  "keywords": [
+    "qcobjects",
+    "newapp",
+    "js",
+    "javascript"
+  ],
+  "author": "Jean Machuca (correojean@gmail.com)",
   "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "qcobjects": "latest",
+    "qcobjects-cli": "latest"
+  },
   "dependencies": {
-    "qcobjects": "latest"
+    "qcobjects-sdk": "latest"
   }
 }
