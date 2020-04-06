@@ -1,6 +1,6 @@
 {
   "name": "qcobjects-charts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "App template for New App in QCObjects",
   "main": "js/init.js",
   "scripts": {
