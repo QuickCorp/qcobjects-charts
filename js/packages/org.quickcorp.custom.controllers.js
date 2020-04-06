@@ -2,7 +2,7 @@
 //Import ('installer');
 
 Promise.all([
-  Import ('org.quickcorp.custom.controllers.fusioncharts')
+  Import ('org.quickcorp.custom.controllers.fusioncharts'),
   Import ('org.quickcorp.custom.controllers.highcharts')
 ]).then(
     // here you can import your own chart packages
