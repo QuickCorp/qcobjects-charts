@@ -17,8 +17,8 @@ Package('org.quickcorp.custom.controllers.highcharts',[
 								done:function (){}
 							}));
 							controller.dependencies.push(New(SourceJS,{
-								url:'https://code.highcharts.com/modules/exporting.js',
-								external:true,
+								url:'js/packages/highcharts/exporting.js',
+								external:false,
 								done:function (){}
 							}));
 							controller.dependencies.push(New(SourceJS,{

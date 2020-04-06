@@ -10,6 +10,11 @@ Package('org.quickcorp.custom.controllers.fusioncharts',[
 			var controller = this;
 			return new Promise (function (resolve,reject){
 				if (!global.get('fusionChartsLoaded')){
+          controller.dependencies.push(New(SourceCSS,{
+            url:'https://ds.fusioncharts.com/2.0.6/css/ds.css',
+            external:true,done:()=>{}
+          }));
+
 					controller.dependencies.push(New(SourceJS,{
 						url:'js/packages/fusioncharts/fusioncharts.js',
 						external:false,

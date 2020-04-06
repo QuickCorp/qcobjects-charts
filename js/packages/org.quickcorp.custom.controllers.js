@@ -3,6 +3,8 @@
 
 Import ('org.quickcorp.custom.controllers.fusioncharts');
 Import ('org.quickcorp.custom.controllers.highcharts');
+// here you can import your own chart packages 
+Import ('org.example.mycharts');
 
 Package('org.quickcorp.custom.controllers', [
   Class('MainController', Controller, {
