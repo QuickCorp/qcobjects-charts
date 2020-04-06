@@ -4,10 +4,11 @@
 Promise.all([
   Import ('org.quickcorp.custom.controllers.fusioncharts'),
   Import ('org.quickcorp.custom.controllers.highcharts')
-]).then(
-    // here you can import your own chart packages
-    Import ('org.example.mycharts');
-);
+]).then(()=>{
+  // here you can import your own chart packages
+  Import ('org.example.mycharts');
+
+});
 
 Package('org.quickcorp.custom.controllers', [
   Class('MainController', Controller, {
