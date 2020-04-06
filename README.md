@@ -14,7 +14,7 @@ This is a custom template to create a PWA with examples using chart components. 
 
 2.- Now, you can test your new app usign npm test:
 
-> npm i --save && npm test
+> npm i --save-dev jasmine && npm test
 
 3.- If everything is ok, you can view your app in a browser by launching with the QCObjects Built-In Server:
 
