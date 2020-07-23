@@ -25,7 +25,7 @@
   "license": "LGPL-3.0-or-later",
   "devDependencies": {
     "jasmine": "^3.5.0",
-    "qcobjects": "latest",
+    "qcobjects": "^2.1.425",
     "qcobjects-cli": "latest"
   },
   "dependencies": {
