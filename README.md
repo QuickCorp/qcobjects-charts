@@ -21,6 +21,7 @@ Please read and buy the [license of Highcharts](https://shop.highsoft.com/highch
 To check out the [live demo](https://quickcorp.github.io/qcobjects-charts/) of this template, please click [here](https://quickcorp.github.io/qcobjects-charts/)
 
 ![demo](img/screenshots/qcobjects-charts-screenshot-demo.png)
+![demo2](img/screenshots/qcobjects-charts-screenshot3.png)
 
 ## Quick Start
 
