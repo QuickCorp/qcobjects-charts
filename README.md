@@ -20,6 +20,8 @@ Please read and buy the [license of Highcharts](https://shop.highsoft.com/highch
 
 To check out the [live demo](https://quickcorp.github.io/qcobjects-charts/) of this template, please click [here](https://quickcorp.github.io/qcobjects-charts/)
 
+![demo](img/screenshots/qcobjects-charts-screenshot-demo.png)
+
 ## Quick Start
 
 1.- First, create a new progressive web app usign this template. Inside a project folder, Type:
